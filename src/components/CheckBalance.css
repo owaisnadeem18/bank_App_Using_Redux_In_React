@@ -1,0 +1,35 @@
+/* CheckBalance.css */
+.balance-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #f0f2f5;
+  }
+  
+  .balance-card {
+    background-color: white;
+    padding: 3rem 4rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .balance-card h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .balance-label {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 1rem;
+  }
+  
+  .balance-amount {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4b6cb7;
+    margin-top: 0.5rem;
+  }
+  

@@ -1,0 +1,48 @@
+/* DepositBalance.css */
+.deposit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #eef2f3;
+  }
+  
+  .deposit-card {
+    background-color: white;
+    padding: 3rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .deposit-card h2 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .deposit-input {
+    padding: 0.7rem;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+    outline: none;
+  }
+  
+  .deposit-button {
+    padding: 0.7rem 1.5rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .deposit-button:hover {
+    background-color: #2980b9;
+  }
+  
